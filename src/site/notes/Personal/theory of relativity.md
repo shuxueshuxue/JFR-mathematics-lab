@@ -56,10 +56,9 @@ $$\lambda=\sqrt{\frac{c-v}{c+v}},\lambda-\frac{1}{\lambda}=\frac{\lambda^2-1}{\l
 $$A=\gamma\begin{pmatrix}
  1&-\dfrac{v}{c^2} \\
  -v& 1
-			\end{pmatrix}$$
-			于是
-			$$A \begin{pmatrix} t \\ x \end{pmatrix}=\gamma\begin{pmatrix} t-\dfrac{v}{c^2}x \\ x-vt \end{pmatrix}=\begin{pmatrix} \dfrac{t-\dfrac{v}{c^2}x}{\sqrt{1-v^2/c^2}}\\ \dfrac{x-vt}{\sqrt{1-v^2/c^2}}\end{pmatrix}$$
-			这就是洛伦兹变换公式啦！
+\end{pmatrix}$$	于是
+$$A \begin{pmatrix} t \\ x \end{pmatrix}=\gamma\begin{pmatrix} t-\dfrac{v}{c^2}x \\ x-vt \end{pmatrix}=\begin{pmatrix} \dfrac{t-\dfrac{v}{c^2}x}{\sqrt{1-v^2/c^2}}\\ \dfrac{x-vt}{\sqrt{1-v^2/c^2}}\end{pmatrix}$$
+这就是洛伦兹变换公式啦！
 
 #### Observation
 - 当 $v\ll c$ ，会发现 $\gamma\approx  1$，$A\approx B$ ，说明低速状态下相对论时空观与牛顿力学时空观相容
