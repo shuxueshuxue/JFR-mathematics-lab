@@ -13,4 +13,5 @@
 # Others
 [[Personal/益智活动样题v0.1\|益智活动样题v0.1]]
 [[Personal/cosine theorem\|cosine theorem]]
-[[Math/Quiz House/intéressant fait\|intéressant fait]]
+[[Personal/vector in geomoetry\|vector in geomoetry]]
+[[Personal/intéressant fait\|intéressant fait]]
