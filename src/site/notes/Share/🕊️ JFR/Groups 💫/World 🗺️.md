@@ -43,7 +43,8 @@ the result should be $a^4$, i.e.
 $abab^{-1}=a^4$
 
 Recall the first equivalence condition of semidirect product
-$$\text{G is a semidirect product}\Leftrightarrow \exists\ H\lhd G,K<G,HK=G,H\cap K=\{e\}$$We find the correspondence 
+$$\text{G is a semidirect product}\Leftrightarrow \exists\ H\lhd G,K<G,HK=G,H\cap K=\{e\}$$
+We find the correspondence 
 $H\lhd G$   $\Leftrightarrow$   world status can be recorded seperately
 $K < G$   $\Leftrightarrow$   world status form a group (reversible, composition, identity)
 $HK = G$   $\Leftrightarrow$   each group element is a combination of "move" and "change world"
@@ -59,7 +60,8 @@ $D_n$ (Dihedral groups) : mirror world
 
 ### Further discussion
 It's not a coincidence that Quasihedral 16 exists as a group. It is based on the fact
-$$3^2=8+1$$Why is it so important? Associative! *Associativity ristricts the group structure to be the "same" everywhere.*
+$$3^2=8+1$$
+Why is it so important? Associative! *Associativity ristricts the group structure to be the "same" everywhere.*
 Back to our *Minecraft* example. If someone has never played this game and has no idea what the Nether and what the Overworld is (even when he really sees them). The first time he enters the game world, he has to figure out where he is with the only fact he know "1 step in the Nether = 8 steps in the Overworld". And he does. Then he figures out successfully where he is. 
 But will it work out the same way in the group Quasihedral 16?
 ***No!***
