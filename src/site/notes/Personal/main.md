@@ -8,3 +8,9 @@
 [[Share/🕊️ JFR/Groups 💫/World 🗺️\|World 🗺️]]
 [[Share/🕊️ JFR/Groups 💫/Action 🔥\|Action 🔥]]
 [[Share/🕊️ JFR/Groups 💫/Move coset ⚽\|Move coset ⚽]]
+
+
+# Others
+[[Personal/益智活动样题v0.1\|益智活动样题v0.1]]
+[[Personal/cosine theorem\|cosine theorem]]
+[[Math/Quiz House/intéressant fait\|intéressant fait]]
