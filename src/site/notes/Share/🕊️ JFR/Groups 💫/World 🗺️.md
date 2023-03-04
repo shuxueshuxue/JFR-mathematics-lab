@@ -12,7 +12,8 @@ From its multiplication table we can see clearly that the left-top zone is ia co
 
 Given any two groups N and H and a group homomorphism φ: H → Aut(N), we can construct a new group N ⋊φ H, called the semidirect product of N and H with respect to φ, defined as follows:
 - The underlying set is the Cartesian product N × H.
-- The group operation ${\displaystyle \bullet }$ is determined by the homomorphism φ:$${\displaystyle {\begin{aligned}\bullet :(N\rtimes _{\varphi }H)\times (N\rtimes _{\varphi }H)&\to N\rtimes _{\varphi }H\\(n_{1},h_{1})\bullet (n_{2},h_{2})&=(n_{1}\varphi (h_{1})(n_{2}),\,h_{1}h_{2})=(n_{1}\varphi _{h_{1}}(n_{2}),\,h_{1}h_{2})\end{aligned}}}$$
+- The group operation ${\displaystyle \bullet }$ is determined by the homomorphism φ:
+- $${\displaystyle {\begin{aligned}\bullet :(N\rtimes _{\varphi }H)\times (N\rtimes _{\varphi }H)&\to N\rtimes _{\varphi }H\\(n_{1},h_{1})\bullet (n_{2},h_{2})&=(n_{1}\varphi (h_{1})(n_{2}),\,h_{1}h_{2})=(n_{1}\varphi _{h_{1}}(n_{2}),\,h_{1}h_{2})\end{aligned}}}$$
 >*Equivalence condition of a semidirect product*
 >$$\begin{align}
 \text{G is a semidirect product}&\Leftrightarrow \exists\ H\lhd G,K<G,HK=G,H\cap K=\{e\}  \\
@@ -41,7 +42,8 @@ and because 1 meter in the Nether = 3 meters on the Overworld
 the result should be $a^4$, i.e.
 $abab^{-1}=a^4$
 
-Recall the first equivalence condition of semidirect product$$\text{G is a semidirect product}\Leftrightarrow \exists\ H\lhd G,K<G,HK=G,H\cap K=\{e\}$$We find the correspondence 
+Recall the first equivalence condition of semidirect product
+$$\text{G is a semidirect product}\Leftrightarrow \exists\ H\lhd G,K<G,HK=G,H\cap K=\{e\}$$We find the correspondence 
 $H\lhd G$   $\Leftrightarrow$   world status can be recorded seperately
 $K < G$   $\Leftrightarrow$   world status form a group (reversible, composition, identity)
 $HK = G$   $\Leftrightarrow$   each group element is a combination of "move" and "change world"
@@ -56,7 +58,8 @@ More examples -
 $D_n$ (Dihedral groups) : mirror world
 
 ### Further discussion
-It's not a coincidence that Quasihedral 16 exists as a group. It is based on the fact$$3^2=8+1$$Why is it so important? Associative! *Associativity ristricts the group structure to be the "same" everywhere.*
+It's not a coincidence that Quasihedral 16 exists as a group. It is based on the fact
+$$3^2=8+1$$Why is it so important? Associative! *Associativity ristricts the group structure to be the "same" everywhere.*
 Back to our *Minecraft* example. If someone has never played this game and has no idea what the Nether and what the Overworld is (even when he really sees them). The first time he enters the game world, he has to figure out where he is with the only fact he know "1 step in the Nether = 8 steps in the Overworld". And he does. Then he figures out successfully where he is. 
 But will it work out the same way in the group Quasihedral 16?
 ***No!***
