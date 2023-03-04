@@ -4,8 +4,8 @@
 
 
 #group 
-H 是指标为 n 的子群，H' 是 H 的所有共轭的交。$G/H'$ 同构于 $S_n$ 的某个子群，从而 $(G:H)| n!$ , $(H:H')| (n-1)!$
-事实上，H' 是 G 中所有完全包含于 H 的共轭类的并，也是包含于 H 的最大的 G 的正规子群。
+Let H be a subugroup of index n. H' is the intersection of all the subgroups that conjugate to H. $G/H'$ is isomorphic to some subgroup of $S_n$ , so that $(G:H')| n!$ , $(H:H')| (n-1)!$ . (The reason will be explained below.)
+In fact, H' is the union of all the conjugate classes of G that are contained in H, and at the same time the largest normal subgroup of G contained by H.
 
 ![Pasted image 20221028230705.png](/img/user/Share/resource/Pasted%20image%2020221028230705.png)
 
