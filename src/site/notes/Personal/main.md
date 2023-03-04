@@ -7,3 +7,4 @@
 
 [[Share/🕊️ JFR/Groups 💫/World 🗺️\|World 🗺️]]
 [[Share/🕊️ JFR/Groups 💫/Action 🔥\|Action 🔥]]
+[[Share/🕊️ JFR/Groups 💫/Move coset ⚽#remark\|Move coset ⚽#remark]]
