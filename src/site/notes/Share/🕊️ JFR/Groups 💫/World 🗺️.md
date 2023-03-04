@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/share/jfr/groups/world/"}
 ---
 
+#group #world
 
 ### Introduction
 ***Quasihedral 16*** - The quasihedral group of order 16
