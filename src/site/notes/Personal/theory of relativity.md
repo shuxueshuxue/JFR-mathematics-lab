@@ -10,10 +10,14 @@
 
 变换的参数：目标惯性系与当前惯性系的速度差 v
 
-首先看最简单的伽利略变换公式$$B=\begin{pmatrix}
+首先看最简单的伽利略变换公式
+$$B=\begin{pmatrix}
 1 & 0\\
 -v & 1
-\end{pmatrix}$$$$B \begin{pmatrix} t \\ x \end{pmatrix}=\begin{pmatrix} t \\ x-vt \end{pmatrix}$$这个变换保持所有点的 t 轴坐标不动，只是改动了 x 轴坐标。它的特征向量是 $\begin{pmatrix} 0 \\ 1 \end{pmatrix}$，并没有任何意义。
+\end{pmatrix}$$
+
+$$B \begin{pmatrix} t \\ x \end{pmatrix}=\begin{pmatrix} t \\ x-vt \end{pmatrix}$$
+这个变换保持所有点的 t 轴坐标不动，只是改动了 x 轴坐标。它的特征向量是 $\begin{pmatrix} 0 \\ 1 \end{pmatrix}$，并没有任何意义。
 但我们会看到洛伦兹变换的特征向量是有明确含义的。
 
 要推导公式，我们从几条假设出发
@@ -30,7 +34,8 @@
 
 第三个条件来自于相对性。考虑 $A(v)$ 和 $A(-v)$ ，它们是互逆的，并且是相似矩阵（相似矩阵的理解：同一个线性变换“切换视角”之后的效果）。 因此它们的行列式都为 1 或 -1，显然 -1 是我们不想要的（特征值都为正，否则会让某一个方向的光逆行），因此只能为 1。
 
-于是我们可以设 A 为$$\begin{pmatrix}
+于是我们可以设 A 为
+$$\begin{pmatrix}
 1 &-1 \\
 c &c 
 \end{pmatrix}\begin{pmatrix}
@@ -42,10 +47,19 @@ c &c
 \end{pmatrix}^{-1}=\frac{1}{2}\begin{pmatrix}
 \lambda+\frac{1}{\lambda} &\frac{1}{c}(\lambda-\frac{1}{\lambda}) \\
 c(\lambda-\frac{1}{\lambda}) & \lambda+\frac{1}{\lambda}
-\end{pmatrix}$$注意这其中没有包含 v 的信息。但它能告诉我们所有的洛伦兹变换都是这个形式，用 $v$ 表示不一定比用 $\lambda$ 表示更简洁。不过我们的目的是用 $v$ 表示，因此我们代入$$A\begin{pmatrix} 1 \\ v \end{pmatrix}=\begin{pmatrix} ? \\ 0 \end{pmatrix}$$可以解得$$\lambda=\sqrt{\frac{c-v}{c+v}},\lambda-\frac{1}{\lambda}=\frac{\lambda^2-1}{\lambda}=\frac{-2v}{\sqrt{c^2-v^2}}=\frac{-2v}{c\sqrt{1-v^2/c^2}},\lambda+\frac{1}{\lambda}=\frac{2}{\sqrt{1-v^2/c^2}}$$令 $\gamma=\dfrac{1}{\sqrt{1-v^2/c^2}}$ ，$$A=\gamma\begin{pmatrix}
+\end{pmatrix}$$
+注意这其中没有包含 v 的信息。但它能告诉我们所有的洛伦兹变换都是这个形式，用 $v$ 表示不一定比用 $\lambda$ 表示更简洁。不过我们的目的是用 $v$ 表示，因此我们代入
+$$A\begin{pmatrix} 1 \\ v \end{pmatrix}=\begin{pmatrix} ? \\ 0 \end{pmatrix}$$
+可以解得
+$$\lambda=\sqrt{\frac{c-v}{c+v}},\lambda-\frac{1}{\lambda}=\frac{\lambda^2-1}{\lambda}=\frac{-2v}{\sqrt{c^2-v^2}}=\frac{-2v}{c\sqrt{1-v^2/c^2}},\lambda+\frac{1}{\lambda}=\frac{2}{\sqrt{1-v^2/c^2}}$$
+令 $\gamma=\dfrac{1}{\sqrt{1-v^2/c^2}}$ ，
+$$A=\gamma\begin{pmatrix}
  1&-\dfrac{v}{c^2} \\
  -v& 1
-			\end{pmatrix}$$于是$$A \begin{pmatrix} t \\ x \end{pmatrix}=\gamma\begin{pmatrix} t-\dfrac{v}{c^2}x \\ x-vt \end{pmatrix}=\begin{pmatrix} \dfrac{t-\dfrac{v}{c^2}x}{\sqrt{1-v^2/c^2}}\\ \dfrac{x-vt}{\sqrt{1-v^2/c^2}}\end{pmatrix}$$这就是洛伦兹变换公式啦！
+			\end{pmatrix}$$
+			于是
+			$$A \begin{pmatrix} t \\ x \end{pmatrix}=\gamma\begin{pmatrix} t-\dfrac{v}{c^2}x \\ x-vt \end{pmatrix}=\begin{pmatrix} \dfrac{t-\dfrac{v}{c^2}x}{\sqrt{1-v^2/c^2}}\\ \dfrac{x-vt}{\sqrt{1-v^2/c^2}}\end{pmatrix}$$
+			这就是洛伦兹变换公式啦！
 
 #### Observation
 - 当 $v\ll c$ ，会发现 $\gamma\approx  1$，$A\approx B$ ，说明低速状态下相对论时空观与牛顿力学时空观相容
