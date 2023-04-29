@@ -16,5 +16,3 @@
 [[Personal/vector in geomoetry\|vector in geomoetry]]
 [[Personal/intéressant fait\|intéressant fait]]
 [[Personal/theory of relativity\|theory of relativity]] (Chinese)
-
-I am recently intrested in AI and is doing some work about combining LLMs and robots...
