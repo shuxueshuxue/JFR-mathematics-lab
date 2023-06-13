@@ -17,4 +17,5 @@
 [[Personal/intéressant fait\|intéressant fait]]
 [[Personal/theory of relativity\|theory of relativity]] (Chinese)
 
-I am recently intrested in combinning LLMs and robots.
+I am recently intrested in combining LLMs and robots.
+My email 21340180002@m.fudan.edu.cn.
