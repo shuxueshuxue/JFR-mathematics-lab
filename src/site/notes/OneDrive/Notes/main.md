@@ -17,5 +17,4 @@
 [[OneDrive/Notes/intéressant fait\|intéressant fait]]
 [[OneDrive/Notes/theory of relativity\|theory of relativity]] (Chinese)
 
-I am interested in pure math, robotics, data analysis and their combination. 🪄
 My email 21340180002@m.fudan.edu.cn.
