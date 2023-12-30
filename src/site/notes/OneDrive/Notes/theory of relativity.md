@@ -53,10 +53,12 @@ $$A\begin{pmatrix} 1 \\ v \end{pmatrix}=\begin{pmatrix} ? \\ 0 \end{pmatrix}$$
 可以解得
 $$\lambda=\sqrt{\frac{c-v}{c+v}},\lambda-\frac{1}{\lambda}=\frac{\lambda^2-1}{\lambda}=\frac{-2v}{\sqrt{c^2-v^2}}=\frac{-2v}{c\sqrt{1-v^2/c^2}},\lambda+\frac{1}{\lambda}=\frac{2}{\sqrt{1-v^2/c^2}}$$
 令 $\gamma=\dfrac{1}{\sqrt{1-v^2/c^2}}$ ，
+
 $$A=\gamma\begin{pmatrix}
  1&-\dfrac{v}{c^2} \\
  -v& 1
-\end{pmatrix}$$	于是
+\end{pmatrix}$$
+于是
 $$A \begin{pmatrix} t \\ x \end{pmatrix}=\gamma\begin{pmatrix} t-\dfrac{v}{c^2}x \\ x-vt \end{pmatrix}=\begin{pmatrix} \dfrac{t-\dfrac{v}{c^2}x}{\sqrt{1-v^2/c^2}}\\ \dfrac{x-vt}{\sqrt{1-v^2/c^2}}\end{pmatrix}$$
 这就是洛伦兹变换公式啦！
 
