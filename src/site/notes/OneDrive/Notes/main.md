@@ -5,9 +5,9 @@
 
 # Group theory
 
-[[OneDrive/Share/🕊️ JFR/Groups 💫/World 🗺️\|World 🗺️]]
-[[OneDrive/Share/🕊️ JFR/Groups 💫/Action 🔥\|Action 🔥]]
-[[OneDrive/Share/🕊️ JFR/Groups 💫/Move coset ⚽\|Move coset ⚽]]
+[[OneDrive/Shared/Share/🕊️ JFR/Groups 💫/World 🗺️\|World 🗺️]]
+[[OneDrive/Shared/Share/🕊️ JFR/Groups 💫/Action 🔥\|Action 🔥]]
+[[OneDrive/Shared/Share/🕊️ JFR/Groups 💫/Move coset ⚽\|Move coset ⚽]]
 
 
 # Others
